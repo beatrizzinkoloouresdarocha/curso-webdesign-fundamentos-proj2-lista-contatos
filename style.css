@@ -33,6 +33,7 @@ body {
 .list-item{
     list-style-type: none;
     padding: 0;
+    margin: 0;
 }
 
 .list-item{
@@ -44,4 +45,20 @@ body {
 .list-item__imagem img{
     width: 80px;
     border-radius: 40%;
+}
+
+.list-item__content{
+    padding: 0  20px;
+    flex-grow: 1;
+}
+
+.list-item__name{
+    font-size: 24px;
+    color: #383838;
+    margin: 0;
+}
+
+.list-item__email{
+    margin: 5px 0 0;
+    color: #aaa;
 }
