@@ -31,5 +31,17 @@ body {
 }
 
 .list-item{
+    list-style-type: none;
+    padding: 0;
+}
+
+.list-item{
     display: flex;
+    border-bottom: 1px solid #eee;
+    padding: 16px;
+}
+
+.list-item__imagem img{
+    width: 80px;
+    border-radius: 40%;
 }
