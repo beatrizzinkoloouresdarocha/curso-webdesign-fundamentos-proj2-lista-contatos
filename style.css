@@ -19,3 +19,11 @@ body {
 .main-title{
     color: #383838;
 }
+
+.list-wrapper{
+   background-color: white;
+   width: 90%;
+   max-width: 500px;
+   max-height:400px;
+   
+}
